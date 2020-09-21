@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lan="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>editor</title>
+        <link rel="shortcut icon" href="./src/favicoo.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+<body>
+    <header>
+        <h1>Editor En Tiempo Real</h1>
+    </header>
+    <div class="contenedor">
+        <textarea onkeyup="visualizarAhora()" placeholder="Escribe tu codigo aqui..." class="area" id="area"></textarea>
+        <iframe class="vista" id="vista"></iframe>
+    </div>
+    <footer>
+        <span>Gracias por utilizar el editor</span>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
